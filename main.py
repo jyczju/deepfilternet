@@ -33,7 +33,7 @@ def plot_spectrogram(audio_data, sample_rate, title = None):
 
 def main():
     # 读取输入音频文件
-    input_file = "mydata/pair2_vic_01.wav"
+    input_file = "mydata/pair2_att_01.wav"
     if not os.path.exists(input_file):
         print(f"文件 {input_file} 不存在")
         return
